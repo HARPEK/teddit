@@ -13,12 +13,15 @@ def calculate_upvotes(story)
   # If the story is about cats multiply the upvotes by 5
   if story.include? 'cats'
     upvotes * 5
+  end
   # If the story is about bacon multiply the upvotes by 8
   if story.include? 'bacon'
     upvotes * 8
+  end
   # If the story is about food it gets 3 times the upvotes.
   if story.include? 'food'
     upvotes * 3
+  end
   #For example:
   # "Cats frolic despite tuna shortage" should give you 5 times the upvotes!
 end
